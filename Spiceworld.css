@@ -1,0 +1,154 @@
+.store-heading {
+  background-color: palegoldenrod;
+}
+title {
+  background-color: blanchedalmond;
+}
+.Our-Reviews {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: palegoldenrod;
+}
+.Coriander {
+  border: 2px;
+  padding: 4px;
+  text-align: center;
+}
+.body {
+  background-color: aqua;
+}
+.About-Spices {
+  background-color: bisque;
+}
+.FAQ {
+  background-color: burlywood;
+  animation: colour-change 3s infinite;
+}
+@keyframes colour-change {
+  from {
+    background-color: burlywood;
+  }
+  to {
+    background-color: aliceblue;
+  }
+}
+.About-Us {
+  background-color: burlywood;
+}
+.Garam-Masala {
+  text-align: center;
+  background-color: burlywood;
+  font-style: italic;
+  font-size: larger;
+}
+.Landing-Page {
+  background-color: burlywood;
+  text-align: center;
+}
+.Meet-the-team {
+  background-color: burlywood;
+}
+.Online-Store {
+  background-color: burlywood;
+}
+.Cinnamon-Quills {
+  background-color: burlywood;
+  border: 4px solid gray;
+  text-align: center;
+}
+.Cumin {
+  background-color: burlywood;
+  border: 4px solid gray;
+  text-align: center;
+}
+.Spice-Image {
+  height: 300px;
+  width: 300px;
+  border: 4px solid black;
+  filter: brightness(50%);
+}
+/* this is the filter for the images for cinnamon, coriander , cumin and peppercorns. When you click purchase on the online stor html, you will see the filtered images */
+.Spice-Image:hover {
+  transform: scaleX(1.2);
+}
+body {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 0 20px;
+}
+.Team-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Coriander {
+  background-color: burlywood;
+}
+
+.img-fluid {
+  border: 1px solid black;
+  padding: 4px;
+}
+.img-fluid:hover {
+  transform: scaleX(1.2);
+}
+
+.About-Spices {
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 4px;
+}
+.About-Spices:hover {
+  transform: scaleX(1.2);
+}
+
+.Spices-Aboutus {
+  height: 500px;
+  width: 500px;
+  border: 1px solid black;
+  padding: 4px;
+}
+.Spices-Aboutus:hover {
+  transform: scaleX(1.2);
+}
+.nav-link {
+  color: black;
+}
+.Questions {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+.Answers {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+.Rows {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+.Lists {
+  list-style-type: lower-roman;
+  background: palegoldenrod;
+  color: black;
+  margin: 2px;
+  padding: 2px;
+  columns: 100px 2;
+}
+/* This is the formatted list on the about.html page */
+.floating-box {
+  float: left;
+  width: 400px;
+  height: 100%;
+  margin: 10px;
+  border: 3px solid brown;
+}

@@ -1,0 +1,11 @@
+console.log("Hello");
+let language = "Javascript";
+let score = "10";
+console.log(language + score);
+let length = 2;
+let width = 8;
+console.log("The area of a rectangle is" + length * width);
+let num1 = 5;
+let num2 = 2;
+console.log(num1 % num2);
+console.log = "Integer";
